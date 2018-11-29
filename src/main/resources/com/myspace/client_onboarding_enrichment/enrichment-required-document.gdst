@@ -41,7 +41,6 @@
           <header>Country</header>
           <constraintValueType>1</constraintValueType>
           <factField>country</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>US,MX,UK,NL,FR,ES</valueList>
           <parameters/>
@@ -57,7 +56,6 @@
           <header>Type</header>
           <constraintValueType>1</constraintValueType>
           <factField>type</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>SMALL, MEDIUM, LARGE</valueList>
           <parameters/>
@@ -73,7 +71,6 @@
           <header>Minimum Credit Score</header>
           <constraintValueType>1</constraintValueType>
           <factField>creditScore</factField>
-          <fieldType>Integer</fieldType>
           <operator>&gt;=</operator>
           <parameters/>
         </condition-column52>
@@ -88,7 +85,6 @@
           <header>Maximum Credit Score</header>
           <constraintValueType>1</constraintValueType>
           <factField>creditScore</factField>
-          <fieldType>Integer</fieldType>
           <operator>&lt;=</operator>
           <parameters/>
         </condition-column52>
@@ -311,15 +307,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">400</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>400</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -411,15 +405,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">400</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>400</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
